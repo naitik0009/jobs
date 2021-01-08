@@ -36,7 +36,7 @@
     <link href="{{ asset('front/assets/css/style.css') }}" rel="stylesheet">
     <link href="{{ asset('front/assets/css/custom.css') }}" rel="stylesheet">
     @stack('header-css')
-
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link rel='stylesheet prefetch'
           href='//cdnjs.cloudflare.com/ajax/libs/flag-icon-css/0.8.2/css/flag-icon.min.css'>
     <!-- Favicons -->
@@ -99,7 +99,7 @@
 
 
 <!-- Header -->
-<header class="header header-inverse" style="background-image: url({{ $frontTheme->background_image_url }})" data-overlay="8">
+<header class="header header-inverse" style="background-image: url({{ $frontTheme->background_image_url }});width:90rem;height:25rem;" data-overlay="8">
     <div class="container text-center">
 
         <div class="row">
